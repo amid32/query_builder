@@ -1,0 +1,15 @@
+RewriteEngine On                     
+RewriteCond %{REQUEST_FILENAME} !-f  
+RewriteCond %{REQUEST_FILENAME} !-d  
+RewriteRule ^(.*)$ index.php/$1 [L] 
+
+
+
+
+#htaccess ise salmaq
+#gelen istek file degilse
+#gelen istek klassor degilse 
+#bunlardan biri deyilsə bu qaydanı yaradın
+ 
+ 
+      
